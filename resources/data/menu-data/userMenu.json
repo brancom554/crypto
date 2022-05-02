@@ -1,0 +1,115 @@
+{
+    "menu": [
+        {
+            "url": "user/dashboard",
+            "name": "Dashboard",
+            "icon": "house",
+            "slug": "user-dashboard"
+        },
+        {
+            "url": "user/dashboard/exchange",
+            "name": "Crypto Exchange",
+            "icon": "currency-exchange",
+            "slug": "user-dashboard-exchange"
+        },
+        {
+            "url": "user/wallets",
+            "name": "Wallets",
+            "icon": "wallet2",
+            "slug": "user-wallets"
+        },
+        {
+            "url": "user/market",
+            "name": "Market Analysis",
+            "icon": "coin",
+            "slug": "user-market"
+        },
+        {
+            "url": "user/news",
+            "name": "News",
+            "icon": "newspaper",
+            "slug": "user-news"
+        },
+        {
+            "url": "user/practice/contracts",
+            "name": "Practice Contracts",
+            "icon": "journal-medical",
+            "slug": "user-practice-contracts"
+        },
+        {
+            "url": "user/trade/contracts",
+            "name": "Trade Contracts",
+            "icon": "journal-album",
+            "slug": "user-trade-contracts"
+        },
+        {
+            "name": "Deposit",
+            "icon": "wallet2",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "user/deposit",
+                    "name": "Deposit Money",
+                    "icon": "chevron-right",
+                    "slug": "user-deposit"
+                },
+                {
+                    "url": "user/deposit/history",
+                    "name": "Deposit History",
+                    "icon": "chevron-right",
+                    "slug": "user-deposit-history"
+                }
+            ]
+        },
+        {
+            "name": "Withdraw",
+            "icon": "briefcase",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "user/withdraw",
+                    "name": "Withdraw Money",
+                    "icon": "chevron-right",
+                    "slug": "user-withdraw"
+                },
+                {
+                    "url": "user/withdraw/history",
+                    "name": "Withdraw History",
+                    "icon": "chevron-right",
+                    "slug": "user-withdraw-history"
+                }
+            ]
+        },
+        {
+            "name": "Referral",
+            "icon": "diagram-3",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "user/referral/log",
+                    "name": "Referral Log",
+                    "icon": "chevron-right",
+                    "slug": "user-referral-log"
+                },
+                {
+                    "url": "user/commissions/history",
+                    "name": "Commission Log",
+                    "icon": "chevron-right",
+                    "slug": "user-commissions-history"
+                }
+            ]
+        },
+        {
+            "url": "user/transaction/history",
+            "name": "Transaction History",
+            "icon": "cash-coin",
+            "slug": "user-transaction-history"
+        }
+    ]
+}

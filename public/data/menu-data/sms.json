@@ -1,0 +1,45 @@
+{
+    "url": "admin/language",
+    "name": "Language",
+    "icon": "chevron-right",
+    "slug": "language"
+},
+{
+    "name": "SMS Manager",
+    "icon": "phone",
+    "slug": "",
+    "badge": "2",
+    "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-2",
+    "submenu": [
+        {
+            "url": "admin/sms-template/global",
+            "name": "API Setting",
+            "icon": "chevron-right",
+            "slug": "sms-template-global"
+        },
+        {
+            "url": "admin/sms-template/index",
+            "name": "SMS Templates",
+            "icon": "chevron-right",
+            "slug": "sms-template-index"
+        }
+    ]
+}
+{
+    "url": "admin/users/sms-unverified",
+    "name": "SMS Unverified",
+    "icon": "chevron-right",
+    "slug": "admin-users-sms-unverified"
+},
+{
+    "url": "admin/frontend/about",
+    "name": "About Page",
+    "icon": "chevron-right",
+    "slug": "frontend-about"
+},
+{
+    "url": "admin/frontend/contact",
+    "name": "Contact Page",
+    "icon": "chevron-right",
+    "slug": "frontend-contact"
+}

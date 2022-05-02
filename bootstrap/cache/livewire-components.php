@@ -1,0 +1,17 @@
+<?php return array (
+  'contract.plotly.graph' => 'App\\Http\\Livewire\\Contract\\Plotly\\Graph',
+  'contract.practice.box' => 'App\\Http\\Livewire\\Contract\\Practice\\Box',
+  'contract.trade.box' => 'App\\Http\\Livewire\\Contract\\Trade\\Box',
+  'crypto-add' => 'App\\Http\\Livewire\\CryptoAdd',
+  'crypto-index' => 'App\\Http\\Livewire\\CryptoIndex',
+  'partials.balance' => 'App\\Http\\Livewire\\Partials\\Balance',
+  'partials.practice-balance' => 'App\\Http\\Livewire\\Partials\\PracticeBalance',
+  'practice-crypto-index' => 'App\\Http\\Livewire\\PracticeCryptoIndex',
+  'wallet.index' => 'App\\Http\\Livewire\\Wallet\\Index',
+  'wallet.practice-wallet' => 'App\\Http\\Livewire\\Wallet\\PracticeWallet',
+  'wallet.practice-wallet-btn' => 'App\\Http\\Livewire\\Wallet\\PracticeWalletBtn',
+  'wallet.practice-wallet-exchange' => 'App\\Http\\Livewire\\Wallet\\PracticeWalletExchange',
+  'wallet.wallet' => 'App\\Http\\Livewire\\Wallet\\Wallet',
+  'wallet.wallet-btn' => 'App\\Http\\Livewire\\Wallet\\WalletBtn',
+  'wallet.wallet-exchange' => 'App\\Http\\Livewire\\Wallet\\WalletExchange',
+);

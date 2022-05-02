@@ -1,0 +1,424 @@
+{
+    "menu": [
+        {
+            "url": "admin/dashboard",
+            "name": "Dashboard",
+            "icon": "house",
+            "slug": "admin/dashboard"
+        },
+        {
+            "name": "Manage Users",
+            "icon": "people",
+            "slug": "",
+            "badge": "5",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/users",
+                    "name": "All Users",
+                    "icon": "chevron-right",
+                    "slug": "users"
+                },
+                {
+                    "url": "admin/users/active",
+                    "name": "Active Users",
+                    "icon": "chevron-right",
+                    "slug": "users-active"
+                },
+                {
+                    "url": "admin/users/banned",
+                    "name": "Banned Users",
+                    "icon": "chevron-right",
+                    "slug": "users-banned"
+                },
+                {
+                    "url": "admin/users/email-unverified",
+                    "name": "Email Unverified",
+                    "icon": "chevron-right",
+                    "slug": "admin-users-email-unverified"
+                },
+                {
+                    "url": "admin/users/send-email",
+                    "name": "Send Email",
+                    "icon": "chevron-right",
+                    "slug": "admin-users-send-email"
+                }
+            ]
+        },
+        {
+            "name": "Coin Manager",
+            "icon": "coin",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/crypto/currency/list",
+                    "name": "Coin list",
+                    "icon": "chevron-right",
+                    "slug": "crypto-currency-list"
+                },
+                {
+                    "url": "admin/crypto/pair/list",
+                    "name": "Pair list",
+                    "icon": "chevron-right",
+                    "slug": "crypto-currency-list"
+                }
+            ]
+        },
+        {
+            "name": "KYC Manager",
+            "icon": "person-bounding-box",
+            "slug": "",
+            "badge": "4",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/kyc-list",
+                    "name": "All KYC Application",
+                    "icon": "chevron-right",
+                    "slug": "kyc-list"
+                },
+                {
+                    "url": "admin/kyc-list/pending",
+                    "name": "Pending KYC",
+                    "icon": "chevron-right",
+                    "slug": "kyc-list-pending"
+                },
+                {
+                    "url": "admin/kyc-list/missing",
+                    "name": "Missing KYC",
+                    "icon": "chevron-right",
+                    "slug": "kyc-list-missing"
+                },
+                {
+                    "url": "admin/kyc-list/approved",
+                    "name": "Approved KYC",
+                    "icon": "chevron-right",
+                    "slug": "kyc-list-approved"
+                }
+            ]
+        },
+        {
+            "name": "Trade Logs",
+            "icon": "journal-album",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "name": "Practice Logs",
+                    "icon": "journal-medical",
+                    "slug": "",
+                    "badge": "4",
+                    "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+                    "submenu": [
+                        {
+                            "url": "admin/practice/trade/log",
+                            "name": "All",
+                            "icon": "chevron-right",
+                            "slug": "practice-trade-log"
+                        },
+                        {
+                            "url": "admin/practice/wining/trade/log",
+                            "name": "Wining",
+                            "icon": "chevron-right",
+                            "slug": "practice-wining-wining-trade-log"
+                        },
+                        {
+                            "url": "admin/practice/losing/trade/log",
+                            "name": "Losing",
+                            "icon": "chevron-right",
+                            "slug": "admin-practice-losing-trade-log"
+                        },
+                        {
+                            "url": "admin/practice/draw/trade/log",
+                            "name": "Draw",
+                            "icon": "chevron-right",
+                            "slug": "admin-practice-draw-trade-log"
+                        }
+                    ]
+                },
+                {
+                    "name": "Real Logs",
+                    "icon": "journal-album",
+                    "slug": "",
+                    "badge": "4",
+                    "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+                    "submenu": [
+                        {
+                            "url": "admin/trade/log",
+                            "name": "All",
+                            "icon": "chevron-right",
+                            "slug": "trade-log"
+                        },
+                        {
+                            "url": "admin/wining/trade/log",
+                            "name": "Wining",
+                            "icon": "chevron-right",
+                            "slug": "wining-wining-trade-log"
+                        },
+                        {
+                            "url": "admin/losing/trade/log",
+                            "name": "Losing",
+                            "icon": "chevron-right",
+                            "slug": "losing-trade-log"
+                        },
+                        {
+                            "url": "admin/draw/trade/log",
+                            "name": "Draw",
+                            "icon": "chevron-right",
+                            "slug": "draw-trade-log"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Deposits",
+            "icon": "wallet2",
+            "slug": "",
+            "badge": "6",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "name": "Payment Gateways",
+                    "icon": "credit-card-2-front",
+                    "slug": "",
+                    "badge": "2",
+                    "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+                    "submenu": [
+                        {
+                            "url": "admin/gateway/automatic",
+                            "name": "Automatic",
+                            "icon": "chevron-right",
+                            "slug": "admin-gateway-automatic"
+                        },
+                        {
+                            "url": "admin/gateway/manual",
+                            "name": "Manual",
+                            "icon": "chevron-right",
+                            "slug": "admin-gateway-manual"
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/deposit/pending",
+                    "name": "Pending Deposits",
+                    "icon": "chevron-right",
+                    "slug": "deposit-pending"
+                },
+                {
+                    "url": "admin/deposit/approved",
+                    "name": "Approved Deposits",
+                    "icon": "chevron-right",
+                    "slug": "deposit-approved"
+                },
+                {
+                    "url": "admin/deposit/successful",
+                    "name": "Successful Deposits",
+                    "icon": "chevron-right",
+                    "slug": "deposit-successful"
+                },
+                {
+                    "url": "admin/deposit/rejected",
+                    "name": "Rejected Deposits",
+                    "icon": "chevron-right",
+                    "slug": "deposit-rejected"
+                },
+                {
+                    "url": "admin/deposit",
+                    "name": "All Deposits",
+                    "icon": "chevron-right",
+                    "slug": "deposit"
+                }
+            ]
+        },
+        {
+            "name": "Withdrawals",
+            "icon": "briefcase",
+            "slug": "",
+            "badge": "5",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/withdraw/method",
+                    "name": "Withdraw Methods",
+                    "icon": "chevron-right",
+                    "slug": "withdraw-method"
+                },
+                {
+                    "url": "admin/withdraw/pending",
+                    "name": "Pending Log",
+                    "icon": "chevron-right",
+                    "slug": "withdraw-pending"
+                },
+                {
+                    "url": "admin/withdraw/approved",
+                    "name": "Approved Log",
+                    "icon": "chevron-right",
+                    "slug": "withdraw-approved"
+                },
+                {
+                    "url": "admin/withdraw/rejected",
+                    "name": "Rejected Log",
+                    "icon": "chevron-right",
+                    "slug": "withdraw-rejected"
+                },
+                {
+                    "url": "admin/withdraw/log",
+                    "name": "Withdrawals Log",
+                    "icon": "chevron-right",
+                    "slug": "withdraw-log"
+                }
+            ]
+        },
+        {
+            "name": "Support Ticket",
+            "icon": "ticket",
+            "slug": "",
+            "badge": "4",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/tickets",
+                    "name": "All Ticket",
+                    "icon": "chevron-right",
+                    "slug": "tickets"
+                },
+                {
+                    "url": "admin/tickets/pending",
+                    "name": "Pending Ticket",
+                    "icon": "chevron-right",
+                    "slug": "tickets-pending"
+                },
+                {
+                    "url": "admin/tickets/closed",
+                    "name": "Closed Ticket",
+                    "icon": "chevron-right",
+                    "slug": "tickets-closed"
+                },
+                {
+                    "url": "admin/tickets/answered",
+                    "name": "Answered Ticket",
+                    "icon": "chevron-right",
+                    "slug": "tickets-answered"
+                }
+            ]
+        },
+        {
+            "name": "Report",
+            "icon": "flag",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/report/transaction",
+                    "name": "Transaction Log",
+                    "icon": "chevron-right",
+                    "slug": "report-transaction"
+                },
+                {
+                    "url": "admin/report/commission",
+                    "name": "Commission Log",
+                    "icon": "chevron-right",
+                    "slug": "report-commission"
+                },
+                {
+                    "url": "admin/report/login/history",
+                    "name": "Login History",
+                    "icon": "chevron-right",
+                    "slug": "report-login-history"
+                }
+            ]
+        },
+        {
+            "url": "admin/subscriber",
+            "name": "Subscribers",
+            "icon": "person-check",
+            "slug": "subscriber"
+        },
+        {
+            "name": "Settings",
+            "icon": "gear",
+            "slug": "",
+            "badge": "5",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/general-setting",
+                    "name": "General Setting",
+                    "icon": "chevron-right",
+                    "slug": "general-setting"
+                },
+                {
+                    "url": "admin/setting/logo-icon",
+                    "name": "Logo Icon Setting",
+                    "icon": "chevron-right",
+                    "slug": "setting-logo-icon"
+                },
+                {
+                    "url": "admin/extensions",
+                    "name": "Extensions",
+                    "icon": "chevron-right",
+                    "slug": "extensions"
+                },
+                {
+                    "url": "admin/seo",
+                    "name": "SEO Manager",
+                    "icon": "chevron-right",
+                    "slug": "seo"
+                },
+                {
+                    "url": "admin/settings/email",
+                    "name": "Email Manager",
+                    "icon": "envelope",
+                    "slug": "settings-email"
+                }
+            ]
+        },
+        {
+            "url": "admin/blog_admin",
+            "name": "Blog Manager",
+            "icon": "card-text",
+            "slug": "blog_admin"
+        },
+        {
+            "name": "Frontend Manager",
+            "icon": "front",
+            "slug": "",
+            "badge": "1",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/frontend/home",
+                    "name": "Home Page",
+                    "icon": "chevron-right",
+                    "slug": "frontend-home"
+                }
+            ]
+        },
+        {
+            "name": "System Manager",
+            "icon": "gear",
+            "slug": "",
+            "badge": "",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "admin/update",
+                    "name": "Update",
+                    "icon": "chevron-right",
+                    "slug": "update"
+                },
+                {
+                    "url": "admin/clear",
+                    "name": "Optimize",
+                    "icon": "chevron-right",
+                    "slug": "clear"
+                }
+            ]
+        }
+    ]
+}
